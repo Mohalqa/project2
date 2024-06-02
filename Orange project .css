@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #DCDCDC;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color:#778899;
+    
+    color: white;
+    padding: 20px;
+}
+
+.profile-pic img {
+    top: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.header-info {
+    flex: 1;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.skills, .work-experience, .education , .Project {
+    margin: 20px 0;
+}
+
+h2 {
+    border-bottom: 2px solid #4a3f35;
+    padding-bottom: 5px;
+    color: #4a3f35;
+}
+
+.skills-content, .education-content   {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hard-skills, .soft-skills {
+    width: 45%;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #f4f4f4;
+    margin: 5px 0;
+    padding: 10px;
+    border-left: 5px solid #4a3f35;
+}
+
+.experience {
+    margin: 10px 0;
+}
+
+.experience h3, .education-content h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.experience p, .education-content p {
+    margin: 5px 0;
+    color: #777;
+}
+
+.experience ul, .education-content ul , .project-con {
+    margin-left: 20px;
+}
+.experience ul img{
+height: 110px;
+width: 100px;
+
+}
+.education ul img{
+    height: 110px;
+    width: 100px;   
+
+}
+footer {
+    background-color: #778899;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .skills-content, .education-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hard-skills, .soft-skills {
+        width: 100%;
+    }
+
+    .profile-pic img {
+        width: 80px;
+        height: 80px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    footer {
+        padding: 20px;
+    }
+}
+
+.footer-content img{
+    width: 48px;
+    height: 48px;   
+
+} 
